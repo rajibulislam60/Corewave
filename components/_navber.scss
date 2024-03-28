@@ -1,0 +1,32 @@
+@import './variables';
+
+nav{
+    padding: 16px 0;
+    background: $bg;
+    ul{
+        list-style: none;
+        gap: 45px;
+        margin: 0;
+        padding: 0;
+        li a{
+            font-size: 16px;
+            font-weight: 500;
+            color: $black;
+            text-decoration: none;
+            transition: 0.4s;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+    .navbarBtn{
+        background: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 25px;
+        text-decoration: none;
+        margin-left: 142px;
+        border-radius: 5px;
+    }
+}
