@@ -9,7 +9,7 @@ body {
 
 nav {
   padding: 16px 0;
-  background: #DAF6EB;
+  background: rgba(218, 246, 235, 0.5);
 }
 
 nav ul {
@@ -41,5 +41,64 @@ nav .navbarBtn {
   text-decoration: none;
   margin-left: 142px;
   border-radius: 5px;
+}
+
+#bannar {
+  background: rgba(218, 246, 235, 0.5);
+  padding-top: 26px;
+}
+
+#bannar .bannar__area .bannar__text__area h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #1B1B1B;
+}
+
+#bannar .bannar__area .bannar__text__area h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #1B1B1B;
+}
+
+#bannar .bannar__area .bannar__text__area p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #717171;
+  max-width: 511px;
+  margin-top: 37px;
+}
+
+#bannar .bannar__area .bannar__text__area .bannarBtn__area {
+  gap: 20px;
+}
+
+#bannar .bannar__area .bannar__text__area .bannarBtn__area .bannarBtn {
+  margin-top: 51px;
+}
+
+#bannar .bannar__area .bannar__text__area .bannarBtn__area .bannarBtn a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #06C279;
+  border: 1px solid #06C279;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+#bannar .bannar__area .bannar__text__area .bannarBtn__area .bannarBtn a:hover {
+  background: #06C279;
+  color: #FFFFFF;
+}
+
+#bannar .bannar__area .bannar__text__area .bannarBtn__area .bannarBtn a .playicon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#bannar .bannar__area .bannar__img__area img {
+  margin-right: 80px;
+  margin-bottom: -13px;
 }
 /*# sourceMappingURL=style.css.map */

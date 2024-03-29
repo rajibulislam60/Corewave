@@ -1,0 +1,56 @@
+#bannar{
+    background: $bg;
+    padding-top: 26px;
+    .bannar__area{
+        .bannar__text__area{
+            h1{
+                font-size: 60px;
+                font-weight: 300;
+                color: $black;
+            }
+            h2{
+                font-size: 60px;
+                font-weight: 700;
+                color: $black;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                color: $pera;
+                max-width: 511px;
+                margin-top: 37px;
+            }
+            .bannarBtn__area{
+                gap: 20px;
+                .bannarBtn{
+                    margin-top: 51px;
+                    a{
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $primary;
+                        border: 1px solid $primary;
+                        border-radius: 5px;
+                        padding: 15px 25px;
+                        &:hover{
+                            background: $primary;
+                            color: $white
+                        }
+                        .playicon{
+                            font-size: 20px;
+                            margin-right: 10px;
+                        }
+                    } 
+                }
+            }
+            
+        }
+        .bannar__img__area{
+            img{
+                margin-right: 80px;
+                margin-bottom: -13px;
+            }
+        }
+    }
+}
