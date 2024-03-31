@@ -1,0 +1,81 @@
+#services{
+    background: $bg;
+    padding: 70px 0;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    .services__area{
+        align-items: center;
+        .services__item__area{
+            gap: 40px;
+            .services__item__one{
+                margin-top: 100px;
+                .services__item__box{
+                    margin-bottom: 40px;
+                    padding: 60px 47px;
+                    background: $white;
+                    border-radius: 10px;
+                    h4{
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: $black;
+                        margin-bottom: 14px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $pera;
+                        max-width: 210px;
+                    }
+                }
+            }
+            .services__item__two{
+                .services__item__box{
+                    margin-bottom: 40px;
+                    padding: 60px 47px;
+                    background: $white;
+                    border-radius: 10px;
+                    h4{
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: $black;
+                        margin-bottom: 14px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $pera;
+                        max-width: 210px;
+                    }
+                }
+            }
+        }
+        .services__text__area{
+            h2{
+                font-size: 45px;
+                font-weight: 600;
+                color: $black;
+                line-height: 54px;
+                max-width: 480px;
+                text-transform: capitalize;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $pera;
+                max-width: 550px;
+                margin-top: 30px;
+                margin-bottom: 45px;
+            }
+            a{
+                font-size: 16px;
+                font-weight: 600;
+                color: $primary;
+                background: $bg;
+                padding: 15px 25px;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+        }
+    }
+}
