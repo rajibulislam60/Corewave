@@ -26,6 +26,10 @@
                         color: $pera;
                         max-width: 210px;
                     }
+                    &:hover{
+                        background: $primary;
+                        color: $white
+                    }
                 }
             }
             .services__item__two{

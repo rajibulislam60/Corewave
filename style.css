@@ -183,6 +183,11 @@ nav .navbarBtn {
   max-width: 210px;
 }
 
+#services .services__area .services__item__area .services__item__one .services__item__box:hover {
+  background: #06C279;
+  color: #FFFFFF;
+}
+
 #services .services__area .services__item__area .services__item__two .services__item__box {
   margin-bottom: 40px;
   padding: 60px 47px;
@@ -231,5 +236,35 @@ nav .navbarBtn {
   padding: 15px 25px;
   text-decoration: none;
   border-radius: 5px;
+}
+
+#project {
+  padding: 91px 0;
+}
+
+#project .project__area .project__title h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  color: #1B1B1B;
+  margin-bottom: 33px;
+}
+
+#project .project__area .project__title ul {
+  list-style: none;
+  gap: 45px;
+}
+
+#project .project__area .project__title ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1B1B1B;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#project .project__area .project__title ul li a:hover {
+  color: #06C279;
 }
 /*# sourceMappingURL=style.css.map */
