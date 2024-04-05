@@ -1,6 +1,7 @@
 #project{
     padding: 91px 0;
     .project__area{
+        text-align: center;
         .project__title{
             h2{
                 text-align: center;
@@ -12,17 +13,55 @@
             ul{
                 list-style: none;
                 gap: 45px;
-        li a{
-            font-size: 16px;
-            font-weight: 500;
-            color: $black;
+                li a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $pera;
+                    text-decoration: none;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+        .project__item{
+            margin-top: 50px;
+            .project__item__box{
+                text-align: center;
+                img{
+                    max-width: 424px;
+                }
+                h3{
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: $black;
+                    margin-top: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $pera;
+                    margin-top: 10px;
+                    max-width: 344px;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .projectBtn{
             text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: $primary;
+            border: 1px solid $primary;
+            border-radius: 5px;
+            padding: 15px 25px;
             transition: 0.4s;
             &:hover{
-                color: $primary;
+                background: $primary;
+                color: $white
             }
-        }
-            }
-        }
+        } 
     }
 }
