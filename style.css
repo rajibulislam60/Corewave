@@ -423,4 +423,20 @@ nav .navbarBtn {
   background: #06C279;
   color: #FFFFFF;
 }
+
+#clients {
+  padding: 94px 0;
+}
+
+#clients .clients__area {
+  text-align: center;
+}
+
+#clients .clients__area .clients__title h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #1B1B1B;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
 /*# sourceMappingURL=style.css.map */

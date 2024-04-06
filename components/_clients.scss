@@ -1,0 +1,15 @@
+#clients{
+    padding: 94px 0;
+    .clients__area{
+        text-align: center;
+        .clients__title{
+            h2{
+                font-size: 45px;
+                font-weight: 600;
+                color: $black;
+                text-transform: capitalize;
+                margin-bottom: 48px;
+            }
+        }
+    }
+}
