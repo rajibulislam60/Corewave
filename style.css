@@ -439,4 +439,43 @@ nav .navbarBtn {
   text-transform: capitalize;
   margin-bottom: 48px;
 }
+
+#ad__part {
+  background: #06C279;
+  padding: 86px 0;
+}
+
+#ad__part .ad__area {
+  position: relative;
+}
+
+#ad__part .ad__area .ad__text h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 38px;
+}
+
+#ad__part .ad__area .ad__text a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1B1B1B;
+  padding: 15px 25px;
+  border: 1px solid #1B1B1B;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#ad__part .ad__area .ad__text a:hover {
+  background: #1B1B1B;
+  color: #FFFFFF;
+}
+
+#ad__part .ad__area .ad__img {
+  position: absolute;
+  right: 0;
+  top: -140px;
+}
 /*# sourceMappingURL=style.css.map */
